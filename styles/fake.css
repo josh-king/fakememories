@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    background-color: #2C2E2E;
+        
+}
+
+p {
+    color: #FFFFFF;
+}
+
+i {
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #7B7F7F;
+}
+
+a:hover {
+    color: #1BE862;
+}
+
+.nav {
+    color: #1BE862;
+    text-align: center;
+}
+
+.main_title {
+    color: #1BE862;
+    line-height: 0em;
+    margin-top:100px;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+.blink1 {
+  animation: blinker .7s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
