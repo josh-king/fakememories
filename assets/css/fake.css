@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+	margin: 0px;
+	background-color: #000000;
+	overflow: hidden;
+	position: relative;
+}
+
+.position {
+	position: absolute;
+	top: 0;
+  left: 0;
+  margin: 5px;
+}
+
+.main_title {
+    color: #1BE862;
+    line-height: 0em;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+.blink1 {
+  animation: blinker .7s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+p {
+    color: #FFFFFF;
+}
